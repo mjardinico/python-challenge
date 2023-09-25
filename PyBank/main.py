@@ -1,4 +1,4 @@
-# Title:  Module 3 Challenge Part I
+# Title:  Module 3 Challenge Part I (PyBank)
 # Submitted by:  Michael Jardinico
 # Date submitted: 9/24/23
 # #PyBank Instructions
@@ -43,7 +43,6 @@ with open(csvpath, mode="r") as csvfile:
         # Append the data with date and profit_losses
         data.append((date, profit_losses))
 
-    # print(data)
     
     print("Financial Analysis")
     print("------------------------------------")
@@ -60,7 +59,6 @@ with open(csvpath, mode="r") as csvfile:
         _, prev_profit = data[i - 1] #previous profit
         change = profit - prev_profit
         changes.append((date, change))
-    # print(changes)
 
 
     #Compute for Average Change
