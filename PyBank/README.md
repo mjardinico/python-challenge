@@ -10,9 +10,7 @@ This Python script analyzes the financial records of a company, based on a given
     2. The net total amount of "Profit/Losses" over the entire period
     3. The changes in "Profit/Losses" over the entire period, and then the average of 
        those changes
-    4. The changes in "Profit/Losses" over the entire period, and then the average of 
-       those changes
-    5. The greatest increase in profits (date and amount) over the entire period
+    4. The greatest increase in profits (date and amount) over the entire period
     6. The greatest decrease in profits (date and amount) over the entire period
 
 # Dependencies
